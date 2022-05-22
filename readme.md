@@ -1,6 +1,6 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](./src/assets/img/underconstruction640.jpg)
 
-# WTF Webpack Starter Kit 
+# WTF Webpack Starter Kit
 
 Simple toolkit for your static websites development.
 
@@ -15,4 +15,3 @@ Click on `Use this template` button to generate a new repository based on this s
 `npm run build` - runs build process for production
 
 `npm run publish` - runs build process and publish the page using `gh-pages` branch
-
