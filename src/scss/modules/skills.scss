@@ -1,0 +1,31 @@
+.skills{
+background-color: $blue;
+color: #fff;
+padding: 64px 16px 88px;
+
+&__header{
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+    text-align: center;
+}
+}
+
+.skills-section{
+margin-top: 64px;
+
+&__emoji{
+display: block;
+font-size: 64px;
+text-align: center;
+}
+
+&__header{
+font-weight: 700;
+font-size: 24px;
+line-height: 44px;
+text-align: center;
+margin: 16px 0 24px;
+}
+
+}
