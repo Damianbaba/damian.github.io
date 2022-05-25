@@ -1,60 +1,71 @@
 .skills{
- background-color: $blue;
- color: #fff;
- padding: 64px 16px 88px;
+  background-color: $blue;
+  color: #fff;
+  padding: 64px 16px 88px;
 
-&__header{
- font-weight: 700;
- font-size: 36px;
- line-height: 48px;
- text-align: center;
-}
+ &__header{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+ }
 }
 
 .skills-list{
- font-style: normal;
- font-size: 16px;
- line-height: 24px;
- color: $lighterBlue;
- width: 288px;
- margin: 0 auto;
- list-style-type: none;
-//  background-color: #333;
- padding: 0;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: $lighterBlue;
+  width: 288px;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
 
  &__item{
- position: relative;
- padding: 0 0 0 24px;
- margin: 0;
+  position: relative;
+  padding: 0 0 0 24px;
+  margin: 0 0 16px;
 
  &:before{
- position: absolute;
- left: 0;
+  position: absolute;
+  left: 0;
+  top: 7px;
+  display: block;
   content: "";
   width: 12px;
   height: 9px;
   background: url('../assets/img/small-tick-green.svg');
-  display: block;
+  .skills-list--blue & {
+    background: url('../assets/img/small-tick-blue.svg');
+    }
+    .skills-list--dot & {
+        background-color: $lighterBlue;
+        width: 2px;
+        height: 2px;
+        border-radius: 50%;
+        top: 11px;
+        left: 5px;
+    }
+   }
  }
-}
 }
 
 .skills-section{
  margin-top: 64px;
 
-&__emoji{
+ &__emoji{
  display: block;
  font-size: 64px;
  text-align: center;
  line-height: 64px;
-}
+ }
 
-&__header{
+ &__header{
  font-weight: 700;
  font-size: 24px;
  line-height: 44px;
  text-align: center;
  margin: 16px 0 24px;
-}
+ }
 
 }
