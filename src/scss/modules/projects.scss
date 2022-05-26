@@ -1,5 +1,5 @@
 .projects {
-padding: 64px 16px 0;
+   padding: 64px 16px 88px;
 
  &__header {
    font-size: 36px;
@@ -29,7 +29,6 @@ padding: 64px 16px 0;
    line-height: 24px;
    font-weight: normal;
    
-
    &__circle {
        display: block;
        width: 8px;
@@ -74,6 +73,4 @@ padding: 64px 16px 0;
        align-items: center;
        padding: 0 0 0 16px;
    }
-  
-
 }
