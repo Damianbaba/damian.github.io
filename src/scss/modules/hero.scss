@@ -1,6 +1,9 @@
 .hero {
     padding: 74px 16px 88px;
-
+   @media (min-width: $tablet) {
+       max-width: $tablet;
+       margin: 0 auto;
+   }
     &__contact {
         border-radius: 64px;
         color: #fff;
@@ -27,6 +30,10 @@
 
     &__hello{
         display: none;
+        @media(min-width: $desktop){
+            display: block;
+
+        }
     }
 
     &__image {

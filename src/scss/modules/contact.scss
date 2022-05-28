@@ -1,7 +1,6 @@
 .contact {
     padding: 64px 16px 88px;
     background: $lighterBlue;
-
     &__description{
         font-style: normal;
         font-weight: 300;
@@ -9,18 +8,15 @@
         line-height: 32px;
         text-align: center;
     }
-
     &__header{
         text-align: center;
         color: $textDark;
         font-size: 36px;
         line-height: 48px;
     }
-
     &__links{
         text-align: center;
     }
-
     &__mail{
          border-radius: 64px;
         color: #fff;
