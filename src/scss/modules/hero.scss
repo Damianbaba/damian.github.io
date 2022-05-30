@@ -4,6 +4,13 @@
        max-width: $tablet;
        margin: 0 auto;
    }
+&__cloud {
+  position: absolute;
+   left: calc(50% + 90px);
+   top: -24px;
+
+}
+
     &__contact {
         border-radius: 64px;
         color: #fff;
@@ -19,6 +26,8 @@
 
     &__description{
         text-align: center;
+
+      
     }
 
     &__header{
@@ -26,13 +35,37 @@
         line-height: 32px;
         text-align: center;
         color: $textDark;
+
+        @media(min-width: $desktop){
+            font-size: 32px;
+            line-height: 40px;
+        }
+
+
     }
 
     &__hello{
         display: none;
         @media(min-width: $desktop){
             display: block;
+            background: $blue;
+            color: #fff;
+            border-radius: 16px;
+            padding: 16px 19px;
+            font-weight: bold;
+            font-size: 32px;
+            position: relative;
 
+            &:after{
+                content: '';
+                position: absolute;
+                top: 66px;
+                left: 32px;
+                display: block;
+                width: 17.42px;
+                height: 22.66px;
+                background: url('../assets/img/Speech_cloud.svg');
+            }
         }
     }
 
@@ -40,11 +73,18 @@
         box-sizing: content-box;
         width: 96px;
         height: 96px;
-        border: 16px solid #F6F9FD;;
+        border: 16px solid #F6F9FD;
         border-radius: 50%;
+
+        @media(min-width: $desktop){
+            width: 178px;
+            height: 178px;
+            border: 24px solid #F6F9FD;
+        }
     }
 
     &__image-container{
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -62,6 +102,11 @@
         line-height: 32px;
         text-align: center;
         margin-bottom: 48px;
+
+          @media(min-width: $desktop) {
+            font-size: 20px;
+            line-height: 40px;
+        }
     }
 
     &__special{
