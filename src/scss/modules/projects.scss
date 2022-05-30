@@ -6,7 +6,12 @@
    line-height: 48px;
    color: $textDark;
    text-align: center;
-   margin-bottom: 46px;
+
+   @media(min-width: $desktop) {
+      font-size: 48px;
+      line-height: 56px;
+   }
+
  }
 
  &__description{
@@ -14,6 +19,15 @@
    font-size: 16px;
    line-height: 32px;
    text-align: center;
+   max-width: 786px;
+   margin: 0 auto 46px;
+
+   @media(min-width: $desktop){
+     font-size: 20px;
+     line-height: 40px;
+     margin-bottom: 128px;
+     
+   }
  }
 
 }
@@ -28,6 +42,11 @@
    font-weight: normal;
    line-height: 24px;
    overflow: hidden;
+
+   @media(min-width:$desktop){
+       font-size: 16px;
+       line-height: 24px;
+   }
    
    &__circle {
        background: $lightGray;
@@ -40,12 +59,25 @@
 
    &__content{
        padding: 24px 16px;
+       @media(min-width: $desktop){
+           padding: 24px 48px 82px;
+       }
    }
 
    &__grid{
        display: grid;
        grid-template-columns: 102px 1fr;
        column-gap: 8px;
+       margin: 0 0 8px 0;
+
+        @media(min-width:$desktop){
+       grid-template-columns: 116px 1fr;
+   }
+
+        &--description{
+            margin-bottom: 24px;
+            }
+
    }
 
    &__label{
@@ -65,6 +97,12 @@
        line-height: 24px;
        font-weight: bold;
        color: #fff;
+       margin-top: 24px;
+
+        @media(min-width:$desktop){
+       font-size: 16px;
+       line-height: 24px;
+   }
    }
 
    &__window {
@@ -80,6 +118,8 @@
     display: grid;
     column-gap: 24px;
     row-gap: 24px;
+    max-width: 1184px;
+    margin: 0 auto;
     @media(min-width: $tablet){
         grid-template-columns: 1fr 1fr;
     }
