@@ -1,4 +1,4 @@
-![cover](https://damian.github.io/og-dm.png)
+![cover](https://github.com/Damianbaba/damian.github.io/img/og-dm.png)
 
 # Damian Mroczek - Junior Frontend Developer
 
