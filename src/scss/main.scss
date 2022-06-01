@@ -5,12 +5,14 @@
 @import "../scss/modules/projects.scss";
 @import "../scss/modules/contact.scss";
 @import "../scss/modules/socials.scss";
+@import "../scss/modules/hand.scss";
 
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono:wght@400;700&display=swap');
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,

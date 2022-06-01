@@ -1,5 +1,6 @@
 import '../scss/main.scss';
 
+console.log("Hi, I'm Damian - nice to meet you");
 
 
 fetch('https://api.github.com/users/Damianbaba/repos')
@@ -17,19 +18,21 @@ fetch('https://api.github.com/users/Damianbaba/repos')
             <span class="project__circle"></span>
           </div>
           <div class="project__content">
-            <img src="../assets/img/Github Icon.svg" alt="">
+            <img src="img/Github Icon.svg" alt="">
             <h3 class="project__grid project__title"><span class="project__label">project:</span><span>${name}</span>
             </h3>
             <p class="project__grid project__grid--description"><span
                 class="project__label">description:</span><span>${description}</span></p>
-            <p class="project__grid"><span class="project__label">demo:</span><span>&lt;<a class="project__link" href="${homepage}"
+            <p class="project__grid"><span class="project__label">demo:</span><span>&lt;<a target="_blank" rel="noopener noreferrer" class="project__link" href="${homepage}"
                   title="${name} - demo">see
                   here</a>&gt;</span></p>
-            <p class="project__grid"><span class="project__label">github:</span><span>&lt;<a class="project__link"
+            <p class="project__grid"><span class="project__label">github:</span><span>&lt;<a target="_blank" rel="noopener noreferrer" class="project__link"
                   href="${html_url}" title="${name} - demo">source_code</a>&gt;</span></p>
           </div>
         </article>`;
-            container.innerHTML += template;
+            if (description) {
+                container.innerHTML += template;
+            }
 
         }
     })
