@@ -1,6 +1,6 @@
 ![cover](https://Damianbaba.github.io/damian.github.io/og-dm.png)
 
-# Damian Mroczek - Junior Frontend Developer
+# Damian Mroczek - Frontend Developer
 
 My portfolio website.
 
