@@ -7,5 +7,8 @@ My portfolio website.
 ## Tools
 
 - Webpack starterkit
-- HTML + Sass + JavaScript
+- HTML
+- Sass
+- JavaScript
+- NPM
 - GitHub API
