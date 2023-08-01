@@ -1,4 +1,4 @@
-![cover](https://Damianbaba.github.io/damian.github.io/FD.png)
+![cover](https://Damianbaba.github.io/damian.github.io/og-dm.png)
 
 # Frontend Developer
 
