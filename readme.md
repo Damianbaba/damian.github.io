@@ -1,11 +1,13 @@
 <!-- ![cover](https://Damianbaba.github.io/damian.github.io/og-dm.png) -->
 
-# Damian Mroczek - Junior Frontend Developer
-
-My portfolio website.
+# My portfolio.
 
 ## Tools
 
-- WTF Webpack starterkit
-- HTML + CSS + JS
-- GitHub API
+- HTML
+- Scss
+- JavaScript
+- Npm Script
+- Webpack starterkit
+- Github Api
+- GitHub
